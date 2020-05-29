@@ -26,7 +26,7 @@ In the view wallet screen, there is a button to generate a new address/private k
 
 ## Things that could of gone better
 
-There are a number of things that I could be better with this application. The most important one is the security of information and how it's stored. The application uses async storage as a means to keep track of pass/address/private keys. Unfortunately this is not a secure way of storing information, and if someone was able to get a hold of your phone/sim then your information would be un-encrypted and able to view. I wanted to use "React-Native-Keystore', as this provides a way to hold memory on the user's phone while also encrypting it. However I had some environment issues with the module, and I ran out of time before I could get it fixed/implemented. 
+There are a number of things that could be better with this application. The most important one is the security of information and how it's stored. The application uses async storage as a means to keep track of pass/address/private keys. Unfortunately this is not a secure way of storing information, and if someone was able to get a hold of your phone/sim then your information would be un-encrypted and able to view. I wanted to use "React-Native-Keystore', as this provides a way to hold memory on the user's phone while also encrypting it. However I had some environment issues with the module, and I ran out of time before I could get it fixed/implemented. 
 
 Another thing that I did not get to implement was the entropy generator. The plan was to use "React-Native-SecureRandom' as a way to generate the 16 byte random string used to initialize the keystores. 
 
