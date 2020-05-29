@@ -3,6 +3,7 @@
 ## About
 
 This is a simple Ethereum Wallet, built with react native for Android. IDEs: Android Studio/VSCode.
+
 Most of the actual code will be found in the eth and src folders.
 
 ## Installation
